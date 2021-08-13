@@ -31,7 +31,7 @@
 		      <input type="text" class="form-control" name="up_description" placeholder="Enter description" value="<?= $category['description']; ?>" required="">
 		    </div>
 		    <input type="hidden" name="up_id" style="float:right;" value="<?= $category['id'];?>">
-		    <input type="submit" name="update" class="btn btn-primary" style="float:right;" value="update">
+		    <input type="submit" name="update" class="btn btn-primary" style="float:right;" value="Update">
 		</form>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
