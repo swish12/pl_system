@@ -49,7 +49,7 @@
 				<td><?php echo $productObj->categoryName($products['category_id']);?></td>
 				<td><?php echo date('F d, Y', strtotime($products['date_added']));?></td>
 				<td>
-					<a href="editProduct.php?editProdId=<?php echo $products['prod_id'] ?>" style="color:green">
+				<a href="editProduct.php?editProdId=<?php echo $products['prod_id'] ?>" style="color:green">
 	          			<i class="fa fa-pencil" aria-hidden="true"></i></a>&nbsp	
 	          		<a href="index.php?deleteProdId=<?php echo $products['prod_id'] ?>" style="color:red" onclick="confirm('Are you sure want to delete this record')">
 	      				<i class="fa fa-trash" aria-hidden="true"></i></a>	
