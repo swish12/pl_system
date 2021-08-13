@@ -41,10 +41,10 @@
 					<td><?php echo $categories['name']?></td>
 					<td><?php echo $categories['description']?></td>
 					<td>
-						<a href="editCategory.php?editId=<?php echo $categories['id'] ?>" style="color:green">
-	              			<i class="fa fa-pencil" aria-hidden="true"></i></a>&nbsp	
-	              		<a href="viewCategory.php?deleteId=<?php echo $categories['id'] ?>" style="color:red" onclick="confirm('Are you sure want to delete this record')">
-              				<i class="fa fa-trash" aria-hidden="true"></i></a>	
+					<a href="editCategory.php?editId=<?php echo $categories['id'] ?>" style="color:green">
+	              				<i class="fa fa-pencil" aria-hidden="true"></i></a>&nbsp	
+	              			<a href="viewCategory.php?deleteId=<?php echo $categories['id'] ?>" style="color:red" onclick="confirm('Are you sure want to delete this record')">
+              					<i class="fa fa-trash" aria-hidden="true"></i></a>	
 					</td>
 				</tr>
 			<?php } } ?>
