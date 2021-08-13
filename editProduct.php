@@ -39,7 +39,7 @@
 			   </select>
 		    </div>
 		    <input type="hidden" name="up_prodId" style="float:right;" value="<?= $products['prod_id'];?>">
-		    <input type="submit" name="update" class="btn btn-primary" style="float:right;" value="update">
+		    <input type="submit" name="update" class="btn btn-primary" style="float:right;" value="Update">
 		</form>	
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
